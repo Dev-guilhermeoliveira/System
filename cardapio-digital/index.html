@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio Digital - Seu Restaurante</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <div class="cabecalho-container">
+            <div class="logo-secao">
+                <img src="assets/icones/logo.png" alt="Logo" class="logo">
+                <h1 class="nome-restaurante">Seu Restaurante</h1>
+            </div>
+            
+            <div class="pesquisa-secao">
+                <input 
+                    type="text" 
+                    id="inputPesquisa" 
+                    class="input-pesquisa" 
+                    placeholder="Pesquisar produtos..."
+                >
+            </div>
+
+            <button id="botaoCarro" class="botao-carrinho">
+                <img src="assets/icones/carrinho.png" alt="Carrinho" class="icone-carrinho">
+                <span id="contadorCarrinho" class="contador-carrinho">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- CATEGORIAS -->
+    <nav class="categorias">
+        <div class="categorias-container">
+            <button class="botao-categoria ativo" data-categoria="Todos">
+                Todos
+            </button>
+            <button class="botao-categoria" data-categoria="Lanches">
+                🍔 Lanches
+            </button>
+            <button class="botao-categoria" data-categoria="Pizzas">
+                🍕 Pizzas
+            </button>
+            <button class="botao-categoria" data-categoria="Porções">
+                🍟 Porções
+            </button>
+            <button class="botao-categoria" data-categoria="Bebidas">
+                🥤 Bebidas
+            </button>
+            <button class="botao-categoria" data-categoria="Sobremesas">
+                🍰 Sobremesas
+            </button>
+        </div>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="principal">
+        <div class="container-cardapios">
+            <div id="containerProdutos" class="grid-produtos">
+                <!-- Produtos serão carregados aqui dinamicamente -->
+            </div>
+            
+            <div id="mensagemVazia" class="mensagem-vazia" style="display: none;">
+                <p>Nenhum produto encontrado.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- CARRINHO MODAL/LATERAL -->
+    <aside id="carrinho" class="carrinho-modal">
+        <div class="carrinho-header">
+            <h2>Meu Carrinho</h2>
+            <button id="fecharCarrinho" class="fechar-carrinho">&times;</button>
+        </div>
+
+        <div id="conteudoCarrinho" class="carrinho-conteudo">
+            <div id="carrinhoVazio" class="carrinho-vazio">
+                <p>Seu carrinho está vazio</p>
+            </div>
+            <div id="listaItensCarrinho" class="lista-itens" style="display: none;">
+                <!-- Itens do carrinho serão adicionados aqui -->
+            </div>
+        </div>
+
+        <div id="rodapeCarrinho" class="carrinho-rodape" style="display: none;">
+            <div class="resumo-carrinho">
+                <div class="linha-resumo">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">R$ 0,00</span>
+                </div>
+                <div class="linha-resumo taxa">
+                    <span>Taxa de entrega:</span>
+                    <span id="taxaEntrega">R$ 5,00</span>
+                </div>
+                <div class="linha-resumo total">
+                    <span>Total:</span>
+                    <span id="total">R$ 5,00</span>
+                </div>
+            </div>
+            <button id="finalizarPedido" class="botao-finalizar">
+                Finalizar Pedido
+            </button>
+        </div>
+    </aside>
+
+    <!-- OVERLAY DO CARRINHO -->
+    <div id="overlayCarrinho" class="overlay"></div>
+
+    <!-- SCRIPTS -->
+    <script src="js/produtos.js"></script>
+    <script src="js/carrinho.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

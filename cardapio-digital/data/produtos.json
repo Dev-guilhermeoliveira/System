@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "nome": "X-Burger",
+    "descricao": "Hambúrguer artesanal com queijo e bacon",
+    "preco": 24.90,
+    "categoria": "Lanches",
+    "imagem": "https://via.placeholder.com/300x200?text=X-Burger"
+  },
+  {
+    "id": 2,
+    "nome": "Sanduíche Natural",
+    "descricao": "Pão integral com frango grelhado e legumes",
+    "preco": 18.50,
+    "categoria": "Lanches",
+    "imagem": "https://via.placeholder.com/300x200?text=Sanduiche"
+  },
+  {
+    "id": 3,
+    "nome": "Pizza Margherita",
+    "descricao": "Tomate, mozzarela e manjericão fresco",
+    "preco": 35.90,
+    "categoria": "Pizzas",
+    "imagem": "https://via.placeholder.com/300x200?text=Pizza+Margherita"
+  },
+  {
+    "id": 4,
+    "nome": "Pizza Pepperoni",
+    "descricao": "Mozzarela, pepperoni e azeitonas",
+    "preco": 39.90,
+    "categoria": "Pizzas",
+    "imagem": "https://via.placeholder.com/300x200?text=Pizza+Pepperoni"
+  },
+  {
+    "id": 5,
+    "nome": "Pizza Calabresa",
+    "descricao": "Calabresa, cebola e mozzarela",
+    "preco": 38.90,
+    "categoria": "Pizzas",
+    "imagem": "https://via.placeholder.com/300x200?text=Pizza+Calabresa"
+  },
+  {
+    "id": 6,
+    "nome": "Batata Frita Crocante",
+    "descricao": "Batata frita com tempero especial",
+    "preco": 12.90,
+    "categoria": "Porções",
+    "imagem": "https://via.placeholder.com/300x200?text=Batata+Frita"
+  },
+  {
+    "id": 7,
+    "nome": "Asas de Frango",
+    "descricao": "6 asas de frango grelhadas com molho barbecue",
+    "preco": 22.90,
+    "categoria": "Porções",
+    "imagem": "https://via.placeholder.com/300x200?text=Asas+Frango"
+  },
+  {
+    "id": 8,
+    "nome": "Bolinhas de Queijo",
+    "descricao": "Bolinhas de queijo derretido crocantes",
+    "preco": 16.90,
+    "categoria": "Porções",
+    "imagem": "https://via.placeholder.com/300x200?text=Bolinhas+Queijo"
+  },
+  {
+    "id": 9,
+    "nome": "Refrigerante Laranja",
+    "descricao": "Refrigerante gelado 350ml",
+    "preco": 5.90,
+    "categoria": "Bebidas",
+    "imagem": "https://via.placeholder.com/300x200?text=Refri+Laranja"
+  },
+  {
+    "id": 10,
+    "nome": "Refrigerante Cola",
+    "descricao": "Refrigerante gelado 350ml",
+    "preco": 5.90,
+    "categoria": "Bebidas",
+    "imagem": "https://via.placeholder.com/300x200?text=Refri+Cola"
+  },
+  {
+    "id": 11,
+    "nome": "Suco Natural de Laranja",
+    "descricao": "Suco natural 300ml feito na hora",
+    "preco": 8.90,
+    "categoria": "Bebidas",
+    "imagem": "https://via.placeholder.com/300x200?text=Suco+Laranja"
+  },
+  {
+    "id": 12,
+    "nome": "Água Mineral",
+    "descricao": "Água mineral gelada 500ml",
+    "preco": 3.50,
+    "categoria": "Bebidas",
+    "imagem": "https://via.placeholder.com/300x200?text=Agua+Mineral"
+  },
+  {
+    "id": 13,
+    "nome": "Sorvete Chocolate",
+    "descricao": "Sorvete de chocolate com calda de chocolate",
+    "preco": 13.90,
+    "categoria": "Sobremesas",
+    "imagem": "https://via.placeholder.com/300x200?text=Sorvete+Chocolate"
+  },
+  {
+    "id": 14,
+    "nome": "Brownie com Sorvete",
+    "descricao": "Brownie quente com bola de sorvete baunilha",
+    "preco": 16.90,
+    "categoria": "Sobremesas",
+    "imagem": "https://via.placeholder.com/300x200?text=Brownie"
+  },
+  {
+    "id": 15,
+    "nome": "Torta de Chocolate",
+    "descricao": "Fatia de torta de chocolate belga",
+    "preco": 14.90,
+    "categoria": "Sobremesas",
+    "imagem": "https://via.placeholder.com/300x200?text=Torta+Chocolate"
+  },
+  {
+    "id": 16,
+    "nome": "Pudim de Leite Condensado",
+    "descricao": "Pudim tradicional com calda de caramelo",
+    "preco": 10.90,
+    "categoria": "Sobremesas",
+    "imagem": "https://via.placeholder.com/300x200?text=Pudim"
+  }
+]
