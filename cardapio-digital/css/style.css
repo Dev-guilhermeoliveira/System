@@ -2,7 +2,7 @@
    VARIÁVEIS E RESET GLOBAL
    ============================================ */
 :root {
-    --cor-primaria: #E63946;
+    --cor-primaria: rgb(89, 0, 0);
     --cor-branca: #FFFFFF;
     --cor-cinza-claro: #F5F5F5;
     --cor-cinza-medio: #E0E0E0;
